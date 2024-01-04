@@ -10,9 +10,11 @@
     {% block onload_js %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     {% endblock %}
-    <title>Document</title>
+    <title>Recipe Sharing - {% block title %}{% endblock}</title>
 </head>
 <body>
+    {% include 'includes/header.html' %}
+
     <h1>Test Heading</h1>
 </body>
 </html>

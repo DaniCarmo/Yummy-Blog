@@ -15,3 +15,20 @@
     --border: 1px solid #00000030;
 }
 /* Header */
+.navbar {
+    background-color: var(--off-white);
+    box-shadow: var(--smal-box-shadow);
+}
+
+a.nav-link {
+    color: var(--black);
+}
+
+img.logo {
+    width: 18.75rem;
+}
+
+.active {
+    border-bottom: 2px solid var(--blue);
+    font-weight: 500;
+}

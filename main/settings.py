@@ -47,6 +47,10 @@ INSTALLED_APPS = [
     
     # Apps
     'home',
+
+    # Other
+    'crispy_forms',
+    'crispy_bootstrap5',
 ]
 
 SITE_ID = 1
@@ -68,7 +72,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'templates')
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'templates', 'allauth')
         ],
         'APP_DIRS': True,
         'OPTIONS': {

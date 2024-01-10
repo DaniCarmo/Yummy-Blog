@@ -66,6 +66,9 @@ MIDDLEWARE = [
     'allauth.account.middleware.AccountMiddleware',
 ]
 
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootsrap5'
+CRISPY_TEMPLATE_PACK = 'bootsrap5'
+
 ROOT_URLCONF = 'main.urls'
 
 TEMPLATES = [
@@ -83,6 +86,10 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field'
+            ]
         },
     },
 ]

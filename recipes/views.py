@@ -1,6 +1,8 @@
 from django.views.generic import CreateView
 
 from .models import Recipe
+from .forms import RecipeForm
+
 
 
 class AddRecipe(LoginRequiredMixin, CreateView):

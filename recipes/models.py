@@ -21,12 +21,15 @@ CUISINE_TYPES = (
     ("oceanic", "Oceanic"),
 )
 
+
 class Recipe(models.Model):
     """
     A model to create and manage recipes
     """
 
-    user = models.ForeignKey(User, related_name="recipe_owner", on_delete=models.CASCADE)
+    user = models.ForeignKey(
+        User, related_name="recipe_owner", on_delete=models.CASCADE
+    )
     title = models.CharField(max_length=300, null=False, blank=False)
     description = models.CharField(max_length=500, null=False, blank=False)
     instructions = RichTextField(max_length=10000, null=False, blank=False)
@@ -46,10 +49,9 @@ class Recipe(models.Model):
     )
     calories = models.IntegerField()
     posted_date = models.DateTimeField(auto_now=True)
-    
+
     class Meta:
         ordering = ["-posted_date"]
-        
+
     def __str__(self):
         return str(self.title)
-    

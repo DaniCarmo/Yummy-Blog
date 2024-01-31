@@ -1,5 +1,9 @@
 from django.views.generic import CreateView
 
+from django.contrib.auth.mixins import (
+    UserPassesTestMixin, LoginRequiredMixin
+)
+
 from .models import Recipe
 from .forms import RecipeForm
 

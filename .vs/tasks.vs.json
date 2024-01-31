@@ -10,6 +10,11 @@
       "taskLabel": "task-",
       "appliesTo": ".venv/",
       "type": "launch"
+    },
+    {
+      "taskLabel": "task-FileContentIndex",
+      "appliesTo": ".vs/Yummy-Blog/FileContentIndex/",
+      "type": "launch"
     }
   ]
 }

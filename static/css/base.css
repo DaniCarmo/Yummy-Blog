@@ -71,10 +71,24 @@ img.logo {
 }
 
 /* Form */
-
 .form {
     width: 100%;
     margin: 3% auto;
     box-shadow: var(--smal-box-shadow);
     border-radius: 5px;
 }
+
+/* Recipes */
+.card {
+    height: 90%;
+    margin-top: 1rem;
+}
+
+.recipes {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.recipes:hover {
+    cursor: pointer;
+ }

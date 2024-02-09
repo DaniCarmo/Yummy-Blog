@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Local settings (.vs)\\Yummy-Blog",
+    "\\Local settings (.vs)\\Yummy-Blog\\config",
+    "\\Local settings (.vs)\\Yummy-Blog\\FileContentIndex",
+    "\\recipes",
+    "\\recipes\\templates",
+    "\\static",
+    "\\static\\css",
+    "\\templates",
+    "\\templates\\includes"
   ],
-  "SelectedNode": "\\.venv",
+  "SelectedNode": "\\recipes\\models.py",
   "PreviewInSolutionExplorer": false
 }

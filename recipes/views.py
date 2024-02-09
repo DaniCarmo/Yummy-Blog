@@ -8,6 +8,8 @@ from django.contrib.auth.mixins import (
     UserPassesTestMixin, LoginRequiredMixin
 )
 
+from django.db.models import Q
+
 from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .models import Recipe

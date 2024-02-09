@@ -172,6 +172,10 @@ a.img-container:hover {
 }
 
 @media screen and (min-width: 62.5em) {
+    .main-title {
+        width: 50%;
+    }
+
     .recipe-info {
         flex-direction: row;
         border: 1px solid var(--black);

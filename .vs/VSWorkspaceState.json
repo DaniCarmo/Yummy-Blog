@@ -1,16 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Local settings (.vs)\\Yummy-Blog",
-    "\\Local settings (.vs)\\Yummy-Blog\\config",
-    "\\Local settings (.vs)\\Yummy-Blog\\FileContentIndex",
+    "\\home",
+    "\\main",
     "\\recipes",
-    "\\recipes\\templates",
     "\\static",
-    "\\static\\css",
-    "\\templates",
+    "\\static\\images",
+    "\\templates\\allauth",
     "\\templates\\includes"
   ],
-  "SelectedNode": "\\recipes\\models.py",
+  "SelectedNode": "\\static\\images\\burger-fries.jpg",
   "PreviewInSolutionExplorer": false
 }

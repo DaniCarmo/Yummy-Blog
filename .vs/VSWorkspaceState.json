@@ -1,14 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\home",
-    "\\main",
     "\\recipes",
+    "\\recipes\\templates",
     "\\static",
     "\\static\\images",
-    "\\templates\\allauth",
-    "\\templates\\includes"
+    "\\templates"
   ],
-  "SelectedNode": "\\static\\images\\burger-fries.jpg",
+  "SelectedNode": "\\recipes\\models.py",
   "PreviewInSolutionExplorer": false
 }

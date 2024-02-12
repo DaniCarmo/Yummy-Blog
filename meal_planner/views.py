@@ -4,6 +4,8 @@ from django_reorder.reorder import reorder
 
 from django.views.generic import TemplateView, View
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.http import HttpResponseRedirect
+from django.urls import reverse
 
 from django.db.models import Q
 
@@ -90,3 +92,22 @@ class GetMeal(TemplateView):
                 }
         
             return context
+
+class AddMeal(View):
+     def post(self, *args, **kwargs):
+        pk = kwargs["pk"]
+        recipe = Recipe.objects.get(pk=pk)
+        meal_date = kwargs["meal_date"]
+        meal_type = kwargs["meal_type"]
+
+        meal, created = Meal.objects.update_or_create(
+            meal_date=meal_date,
+            meal_type=meal_type,
+            defaults={
+                "user": self.request.user,
+                "recipe": recipe,
+                "meal_date": meal_date
+            },
+        )
+
+        return HttpResponseRedirect(reverse("meal_planner"))

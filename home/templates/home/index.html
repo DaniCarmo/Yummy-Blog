@@ -7,21 +7,21 @@
 
 <div class="container flex-column pt-3">
     <section class="text-center">
-        <h1 class="main-title mx-auto pt-4">Your guide to simple and delicious recipes! <img src="static/icons/blue-fork.png" width="40" /></h1>
-            <div class="container p-3">
-                <div class="row">
-                    <div class="col-md-6 d-flex flex-column">
-                        <img class="img-fluid rounded m-3"
-                             src="static/images/pink-homepage.jpg"
-                             alt="woman eating ice cream" />
-                    </div>
-                    <div class="col-md-6 d-flex flex-column justify-content-center">
-                        <p class="pt-4">
-                            Welcome to the tantalizing world of our Yummy Food Blog, where culinary delights await your every craving! From comforting classics to exotic flavors, we're here to take you on a flavorful journey that will ignite your passion for all things delicious. Join us as we explore the art of cooking, sharing mouthwatering recipes, helpful tips, and inspiring stories along the way. Whether you're a seasoned chef or a kitchen novice, our blog is your go-to destination for culinary inspiration. Get ready to embark on a culinary adventure that will leave you hungry for more.
-                        </p>
-                    </div>
+        <h1 class="main-title mx-auto pt-4">Your guide to simple and delicious recipes! <img src="static/icons/blue-fork.png" width="40" alt="blue fork icon"/></h1>
+        <div class="container p-3">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column">
+                    <img class="img-fluid rounded m-2"
+                         src="static/images/pink-homepage.jpg"
+                         alt="woman eating ice cream" />
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <p class="lead pt-4">
+                        Welcome to the tantalizing world of our Yummy Food Blog, where culinary delights await your every craving! From comforting classics to exotic flavors, we're here to take you on a flavorful journey that will ignite your passion for all things delicious.<br /> <br /> Join us as we explore the art of cooking, sharing mouthwatering recipes, helpful tips, and inspiring stories along the way. Whether you're a seasoned chef or a kitchen novice, our blog is your go-to destination for culinary inspiration. Get ready to embark on a culinary adventure that will leave you hungry for more.
+                    </p>
                 </div>
             </div>
+        </div>
     </section>
     <section>
         <div class="recipe-cont">
@@ -33,6 +33,33 @@
             {% endfor %}
         </div>
     </section>
+    <div class="container p-3 home-container">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center shadow home-shadow">
+                <h2 class="mx-auto mb-5"><img src="static/icons/fork-knife" width="40" alt="fork and knife icon" />Be Inspired...</h2>
+                <p class="lead fst-italic px-4">
+                    "Home cooking is about bringing people together and sharing the love that you put into your food." - Ina Garten
+                    <br />
+                    <br />
+                    <br />
+                    "Home cooking is all about embracing the essence of simple, honest food made with love." - Jamie Oliver
+                    <br />
+                    <br />
+                    <br />
+                    "Home cooking is not just about the food; it's about the love and care that goes into preparing it." - Nigella Lawson
+                    <br />
+                    <br />
+                    <br />
+                    "In a world where everything is fast-paced, home cooking is the antidote that brings people together and nourishes the soul." - Gordon Ramsay
+                </p>
+            </div>
+            <div class="col-md-6 d-flex flex-column">
+                <img class="image-fluid rounded m-2"
+                     src="static/images/fruit-salad.jpg"
+                     alt="fruit tossed in the air" />
+            </div>
+        </div>
+    </div>
 </div>
 
 {% endblock %}

@@ -1,5 +1,5 @@
 :root {
-    --background: rgb(231,218,218);
+    --background: rgb(245, 220 ,220);
     --blue: #0d6efd;
     --black: #000;
     --pastel: rgb(255, 209, 220);
@@ -37,7 +37,7 @@ main {
 /* Footer */
 footer {
     flex-shrink: 0;
-    background-color: var(--pastel);
+    background-color: var(--background);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -52,7 +52,7 @@ footer {
 
 /* Header */
 .navbar {
-    background-color: var(--pastel);
+    background-color: var(--background);
     box-shadow: var(--smal-box-shadow);
 }
 
@@ -61,7 +61,7 @@ a.nav-link {
 }
 
 img.logo {
-    height: 75px;
+    height: 60px;
 }
 
 .active {

@@ -4,7 +4,7 @@
 
 {% block content %}
 <h1 class="text-center p-2 d-block">
-    Latest Recipes <img src="static\icons\fork-knife.png" width="40" /></h1>
+    Latest Recipes <img src="static/icons/blue-fork.png" width="40" alt="blue fork icon" /></h1>
 <div class="container d-flex flex-row flex-wrap justify-content-center">
     {% for recipe in recipes %}
     <a href="{% url 'recipe_detail' recipe.id %}" class="recipes" aria-label="Click to view {{recipe.title}}">

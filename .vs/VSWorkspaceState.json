@@ -1,12 +1,17 @@
 {
   "ExpandedNodes": [
     "",
+    "\\home",
+    "\\home\\templates",
+    "\\home\\templates\\home",
+    "\\meal_planner",
     "\\recipes",
     "\\recipes\\templates",
+    "\\recipes\\templates\\recipes",
     "\\static",
-    "\\static\\images",
-    "\\templates"
+    "\\templates",
+    "\\templates\\includes"
   ],
-  "SelectedNode": "\\recipes\\models.py",
+  "SelectedNode": "\\meal_planner\\views.py",
   "PreviewInSolutionExplorer": false
 }

@@ -4,14 +4,13 @@
     "\\home",
     "\\home\\templates",
     "\\home\\templates\\home",
-    "\\meal_planner",
     "\\recipes",
     "\\recipes\\templates",
     "\\recipes\\templates\\recipes",
-    "\\static",
+    "\\static\\icons",
     "\\templates",
     "\\templates\\includes"
   ],
-  "SelectedNode": "\\meal_planner\\views.py",
+  "SelectedNode": "\\home\\templates\\home\\index.html",
   "PreviewInSolutionExplorer": false
 }

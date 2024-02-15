@@ -4,13 +4,9 @@
     "\\.github\\ISSUE_TEMPLATE",
     "\\home\\templates",
     "\\home\\templates\\home",
-    "\\recipes\\templates",
-    "\\recipes\\templates\\recipes",
-    "\\static\\css",
-    "\\static\\icons",
-    "\\templates",
-    "\\templates\\includes"
+    "\\main",
+    "\\templates\\allauth\\account"
   ],
-  "SelectedNode": "\\templates\\base.html",
+  "SelectedNode": "\\main\\settings.py",
   "PreviewInSolutionExplorer": false
 }

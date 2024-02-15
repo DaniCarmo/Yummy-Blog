@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\home",
+    "\\.github\\ISSUE_TEMPLATE",
     "\\home\\templates",
     "\\home\\templates\\home",
-    "\\recipes",
     "\\recipes\\templates",
     "\\recipes\\templates\\recipes",
+    "\\static\\css",
     "\\static\\icons",
     "\\templates",
     "\\templates\\includes"
   ],
-  "SelectedNode": "\\home\\templates\\home\\index.html",
+  "SelectedNode": "\\templates\\base.html",
   "PreviewInSolutionExplorer": false
 }

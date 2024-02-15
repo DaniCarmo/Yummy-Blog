@@ -1,1 +1,1 @@
-web: gunicorn yummy-blog.wsgi
+web: gunicorn Yummy-Blog.wsgi

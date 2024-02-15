@@ -1,3 +1,4 @@
+import django_heroku
 """
 Django settings for main project.
 
@@ -191,3 +192,4 @@ CLOUIDNARY_URL = os.environ.get('CLOUDINARY_URL')
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+django_heroku.settings(locals())

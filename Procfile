@@ -1,1 +1,1 @@
-web: gunicorn Yummy-Blog.wsgi:application
+web: gunicorn main.wsgi:application

@@ -104,7 +104,7 @@ img.logo {
     background-color: #3C4142;
 }
 
-.recipe-info h1, p {
+.recipe-detail h1, .recipe-detail p {
     color: var(--white);
 }
 

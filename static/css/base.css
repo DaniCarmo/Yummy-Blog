@@ -90,11 +90,8 @@ img.logo {
 
 .recipes:hover {
     cursor: pointer;
+    border: var(--orange)
  }
-
-.latest:hover {
-    border: var(--orange) 1px;
-}
 
 .back-colour {
     background-color: var(--pastel);
@@ -107,13 +104,17 @@ img.logo {
     background-color: #3C4142;
 }
 
-.recipe-info h2, p {
+.recipe-info h1, p {
     color: var(--white);
 }
 
 .recipe-container {
     display: flex;
     flex-direction: column;
+}
+
+.recipe-container p {
+    color: var(--black);
 }
 
 .ingredients, .instructions, .recipe-detail {

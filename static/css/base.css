@@ -104,7 +104,11 @@ img.logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--background);
+    background-color: #3C4142;
+}
+
+.recipe-info h2, p {
+    color: var(--white);
 }
 
 .recipe-container {

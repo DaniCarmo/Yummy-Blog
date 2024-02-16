@@ -1,11 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github\\ISSUE_TEMPLATE",
-    "\\home\\templates",
-    "\\home\\templates\\home",
+    "\\.venv\\Lib",
+    "\\.venv\\Lib\\site-packages",
+    "\\.venv\\Lib\\site-packages\\allauth",
+    "\\.venv\\Lib\\site-packages\\allauth\\account",
     "\\main",
-    "\\templates\\allauth\\account"
+    "\\static",
+    "\\static\\images",
+    "\\templates",
+    "\\templates\\includes"
   ],
   "SelectedNode": "\\main\\settings.py",
   "PreviewInSolutionExplorer": false

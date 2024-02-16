@@ -1,5 +1,5 @@
 :root {
-    --background: rgb(245, 220 ,220);
+    --background: #f6f4fc;
     --blue: #0d6efd;
     --black: #000;
     --pastel: rgb(255, 209, 220);
@@ -52,7 +52,7 @@ footer {
 
 /* Header */
 .navbar {
-    background-color: var(--background);
+    background-color: var(--background)!important;
     box-shadow: var(--smal-box-shadow);
 }
 
@@ -97,7 +97,7 @@ img.logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--pastel);
+    background-color: var(--background);
 }
 
 .recipe-container {

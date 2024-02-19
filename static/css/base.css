@@ -303,6 +303,6 @@ h3 > a {
 
 @media screen and (min-width:250px) and (max-width:991px) {
     #inspired {
-        margin-top: 3px!important;
+        margin-top: 10px!important;
     }
 }

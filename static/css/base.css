@@ -300,3 +300,9 @@ h3 > a {
         align-items: center;
     }
 }
+
+@media Screen and (min-width:250px) and (max-width:991px) {
+    #inspired {
+        margin-top: 3px;
+    }
+}

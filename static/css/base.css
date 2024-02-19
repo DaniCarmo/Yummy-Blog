@@ -301,8 +301,8 @@ h3 > a {
     }
 }
 
-@media Screen and (min-width:250px) and (max-width:991px) {
+@media screen and (min-width:250px) and (max-width:991px) {
     #inspired {
-        margin-top: 3px;
+        margin-top: 3px!important;
     }
 }

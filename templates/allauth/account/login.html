@@ -12,13 +12,13 @@
   <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
 
 
-  <form class="form p-2" method="POST" action="{% url 'account_login' %}">
+  <form class="form p-2 back-colour" method="POST" action="{% url 'account_login' %}">
     {% csrf_token %}
     {{ form|crispy }}
     {% if redirect_field_value %}
     <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
     {% endif %}
-    <button class="btn btn-warning w-25 mb-2" type="submit">{% trans "Sign In" %}</button>
+    <button class="btn btn-secondary w-25 mb-2" type="submit">{% trans "Sign In" %}</button>
     <a class="button secondaryAction d-block" href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a>
   </form>
 </div>

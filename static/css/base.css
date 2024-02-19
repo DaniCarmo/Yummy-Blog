@@ -90,7 +90,7 @@ img.logo {
 
 .card:hover {
     cursor: pointer;
-    border: 2px solid var(--orange)
+    border: 3px solid var(--orange)
  }
 
 .back-colour {

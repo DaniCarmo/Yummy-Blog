@@ -88,9 +88,9 @@ img.logo {
     color: var(--black);
 }
 
-.recipes:hover {
+.card:hover {
     cursor: pointer;
-    border: var(--orange)
+    border: 1px solid var(--orange)
  }
 
 .back-colour {
@@ -130,6 +130,7 @@ img.logo {
 .recipe-pic {
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .recipe-cont {

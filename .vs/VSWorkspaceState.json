@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.venv\\Lib",
-    "\\.venv\\Lib\\site-packages",
-    "\\.venv\\Lib\\site-packages\\allauth",
-    "\\.venv\\Lib\\site-packages\\allauth\\account",
-    "\\main",
-    "\\static",
-    "\\static\\images",
+    "\\home",
+    "\\home\\templates",
+    "\\home\\templates\\home",
+    "\\profiles\\templates",
+    "\\profiles\\templates\\profiles",
+    "\\recipes\\templates",
+    "\\recipes\\templates\\recipes",
     "\\templates",
     "\\templates\\includes"
   ],
-  "SelectedNode": "\\main\\settings.py",
+  "SelectedNode": "\\templates\\includes\\header.html",
   "PreviewInSolutionExplorer": false
 }

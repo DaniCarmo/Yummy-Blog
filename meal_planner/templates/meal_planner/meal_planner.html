@@ -17,9 +17,9 @@
             <div id="collapse{{forloop.counter}}" class="accordion-collapse collapse" aria-labelledby="heading{{forloop.counter}}" data-bs-parent="#accordionExample">
                 <div class="d-flex flex-column align-items-center p-2">
                     <p>Add or Update Meals</p>
-                    <a href="{% url 'get_meals' day 'light bites' %}" class="btn btn-primary w-25 mb-2">Light Bites</a>
-                    <a href="{% url 'get_meals' day 'dinner' %}" class="btn btn-primary w-25 mb-2">Dinner</a>
-                    <a href="{% url 'get_meals' day 'dessert' %}" class="btn btn-primary w-25 mb-2">Dessert</a>
+                    <a href="{% url 'get_meals' day 'light bites' %}" class="btn btn-secondary w-25 mb-2">Light Bites</a>
+                    <a href="{% url 'get_meals' day 'dinner' %}" class="btn btn-secondary w-25 mb-2">Dinner</a>
+                    <a href="{% url 'get_meals' day 'dessert' %}" class="btn btn-secondary w-25 mb-2">Dessert</a>
                 </div>
                 <hr>
                 <div class="accordion-body">

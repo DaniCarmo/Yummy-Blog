@@ -132,6 +132,10 @@ img.logo {
     width: 100%;
 }
 
+.ingredients, .instructions {
+    background-color: var(--white);
+}
+
 .recipe-img {
     display: flex;
     justify-content: center;

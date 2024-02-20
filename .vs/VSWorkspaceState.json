@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\templates",
+    "\\static",
+    "\\staticfiles\\css",
+    "\\staticfiles\\images",
+    "\\static\\css",
+    "\\static\\icons",
+    "\\static\\images",
     "\\templates\\allauth",
     "\\templates\\includes"
   ],
+  "SelectedNode": "\\staticfiles",
   "PreviewInSolutionExplorer": false
 }

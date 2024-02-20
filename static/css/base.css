@@ -208,6 +208,7 @@ a.img-container:hover {
 
 .profile-recipes {
     width: 100%;
+    background-color: var(--white);
 }
 
 /* Meal Planner */

@@ -1,16 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\home",
-    "\\home\\templates",
-    "\\home\\templates\\home",
-    "\\profiles\\templates",
-    "\\profiles\\templates\\profiles",
-    "\\recipes\\templates",
-    "\\recipes\\templates\\recipes",
     "\\templates",
+    "\\templates\\allauth",
     "\\templates\\includes"
   ],
-  "SelectedNode": "\\templates\\includes\\header.html",
   "PreviewInSolutionExplorer": false
 }

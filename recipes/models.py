@@ -5,7 +5,9 @@ from djrichtextfield.models import RichTextField
 from django_resized import ResizedImageField
 
 # Choice Fields
-MEAL_TYPES = (("dinner", "Dinner"), ("light bites", "Light Bites"), ("dessert", "Dessert"), )
+MEAL_TYPES = (("dinner", "Dinner"),
+              ("light bites", "Light Bites"),
+              ("dessert", "Dessert"), )
 
 CUISINE_TYPES = (
     ("caribbean", "Caribbean"),
@@ -37,7 +39,8 @@ class Recipe(models.Model):
         null=False,
     )
     image_alt = models.CharField(max_length=100, null=False, blank=False)
-    meal_type = models.CharField(max_length=50, choices=MEAL_TYPES, default="dinner")
+    meal_type = models.CharField(max_length=50,
+                                 choices=MEAL_TYPES, default="dinner")
     cuisine_types = models.CharField(
         max_length=50, choices=CUISINE_TYPES, default="european"
     )

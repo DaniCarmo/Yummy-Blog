@@ -11,20 +11,21 @@ class Profiles(TemplateView):
     template_name = "profiles/profile.html"
 
     def get_context_data(self, **kwargs):
-      try:
-        profile = Profile.objects.get(user=self.kwargs["pk"])
-      except Profile.DoesNotExist:
-        profile = None
-        
-      context = {
+        try:
+            profile = Profile.objects.get(user=self.kwargs["pk"])
+        except Profile.DoesNotExist:
+            profile = None
+
+        context = {
           "profile": profile,
           'form': ProfileForm(instance=profile)
-      }
+        }
 
-      return context
+        return context
 
 
-class EditProfile(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
+class EditProfile(LoginRequiredMixin, UserPassesTestMixin,
+                  UpdateView):
     """Edit a profile"""
 
     form_class = ProfileForm

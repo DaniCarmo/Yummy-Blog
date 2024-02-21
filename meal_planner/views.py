@@ -56,50 +56,51 @@ class GetMeal(TemplateView):
             if not calories:
                 calories = 9999
 
-                calories = int(calories)
-                # Filter by description, title,
-                # ingrediends, cuisine type or instructions
-                # AND calories & meal type
+            calories = int(calories)
+            # Filter by description, title,
+            # ingredients, cuisine type or instructions
+            # AND calories & meal type
 
+            recipes = Recipe.objects.filter(
+                Q(description__icontains=query) |
+                Q(title__icontains=query) |
+                Q(ingredients__icontains=query) |
+                Q(cuisine_types__icontains=query) |
+                Q(instructions__icontains=query) &
+                Q(calories__lte=calories) &
+                Q(meal_type=kwargs["meal_type"])
+            )
+        # If only calories sent, search by meal type and calories
+        elif calories:
+            recipes = Recipe.objects.filter(
+                calories__lte=calories,
+                meal_type=kwargs["meal_type"]
+            )
+        else:
+            # if no recipes in the database set empty list
+            if len(Recipe.objects.all()) < 1:
+                recipes = []
+            else:
+                # Get random recipe for meal type
                 recipes = Recipe.objects.filter(
-                    Q(description__icontains=query) |
-                    Q(title__icontains=query) |
-                    Q(ingredients__icontains=query) |
-                    Q(cuisine_types__icontains=query) |
-                    Q(instructions__icontains=query) &
-                    Q(calories__lte=calories) &
-                    Q(meal_type=kwargs["meal_type"])
-                )
-            # If only calories sent, search by meal type and calories
-            elif calories:
-                recipes = Recipe.objects.filter(
-                    calories__lte=calories,
                     meal_type=kwargs["meal_type"]
                 )
-            else:
-                # if no recipes in the database set empty list
-                if len(Recipe.objects.all()) < 1:
-                    recipes = []
-                else:
-                    # Get random recipe for meal type
-                    recipes = Recipe.objects.filter
-                    (meal_type=kwargs["meal_type"])
-            # If recipes returned, get random recipe and return it
-            if len(recipes) > 0:
-                recipe = random.choice(recipes)
-                context = {
-                    "meal_date": kwargs["meal_date"],
-                    "meal_type": kwargs["meal_type"],
-                    "recipe": recipe
-                }
-            # If no recipes in database, return without recipe
-            else:
-                context = {
-                    "meal_date": kwargs["meal_date"],
-                    "meal_type": kwargs["meal_type"],
-                }
+        # If recipes returned, get random recipe and return it
+        if len(recipes) > 0:
+            recipe = random.choice(recipes)
+            context = {
+                "meal_date": kwargs["meal_date"],
+                "meal_type": kwargs["meal_type"],
+                "recipe": recipe
+            }
+        # If no recipes in database, return without recipe
+        else:
+            context = {
+                "meal_date": kwargs["meal_date"],
+                "meal_type": kwargs["meal_type"],
+            }
 
-            return context
+        return context
 
 
 class AddMeal(View):

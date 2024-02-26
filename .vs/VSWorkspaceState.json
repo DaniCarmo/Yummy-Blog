@@ -1,16 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\meal_planner",
-    "\\meal_planner\\migrations\\__pycache__",
-    "\\meal_planner\\templates\\meal_planner",
-    "\\profiles\\migrations",
-    "\\profiles\\templates",
-    "\\profiles\\templates\\profiles",
     "\\recipes\\templates",
     "\\recipes\\templates\\recipes",
-    "\\templates\\allauth"
+    "\\templates\\allauth",
+    "\\templates\\includes"
   ],
-  "SelectedNode": "\\meal_planner\\views.py",
+  "SelectedNode": "\\recipes",
   "PreviewInSolutionExplorer": false
 }

@@ -296,9 +296,9 @@ No errors found when running in CSS level 2:
 
 ![css test](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/testing/css.check.png?raw=true)
 
-Errors found when running in CSS level 3 and unable to amend - after extensive research I have found that CSS3 and Bootstrap are not fully compatible with the W3C validator.
+Errors found when running in CSS level 3 and unable to amend - after extensive research I have found that CSS3 and Bootstrap are not fully compatible with the W3C validator. These are errors I will aim to resolve in the future but right now they are not impacting the functionality or design of the project.
 
-![css test fail]()
+![css test fail](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/testing/css%20errors.png?raw=true)
 
 3. [jshint](https://jshint.com/)
 
@@ -427,10 +427,14 @@ To deploy the project through Heroku I followed these steps:
 ## Credits
 
 
-* I used a Django playlist on YouTube[this video series](https://www.youtube.com/watch?v=sBjbty691eI&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy) from a Code Institute alumni to get an idea of how to implement the CRUD functionality for a recipe blog.
+* I used a Django playlist on YouTube under [this video series](https://www.youtube.com/watch?v=sBjbty691eI&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy) from a Code Institute alumni to get an idea of how to implement the CRUD functionality for a recipe blog. This youtube series was of great help to me and I greatly appreciate that she has made this is available for students.
 
-* Followed tips and troubleshooting throughout the project on Stackoverflow [stackoverflow](https://stackoverflow.blog/) and Python.org [python-org](https://www.python.org/).
+* Followed tips and troubleshooting throughout the project on [Stackoverflow](https://stackoverflow.blog/) and [W3Schools](https://www.w3schools.com/).
+
+* [Python](https://www.python.org/) and [Django Documentation](https://docs.djangoproject.com/en/3.2/) were used to help with the functionality of the site and troubleshoot.
 
 * Got the recipes from [BBC Good Food](https://www.bbcgoodfood.com) and [Simply Recipes](https://www.simplyrecipes.com).
+
+* I used pictures from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
 * I used ChatGBT [chat-gbt](https://chat.openai.com/) to assist with coming up with intro text on the home page and chef quotes.

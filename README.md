@@ -1,66 +1,68 @@
-# Yummy Blog 
-  
-
-View the live site [here](https://yummy-blog-b6c8aefad68f.herokuapp.com/). 
+# Yummy Blog
 
 
-![screenshot of the live site](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/responsive/ipad.air.png?raw=true) 
-  
-
-## Contents 
+View the live site [here](https://yummy-blog-b6c8aefad68f.herokuapp.com/)
 
 
-* [Purpose](#purpose) 
+![screenshot of the live site](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/responsive/ipad.air.png?raw=true)
 
-* [User Experience](#user-experience) 
 
-   * [Project Goals](#project-goals) 
+## Contents
 
-   * [User Stories](#user-stories) 
 
-   * [Database Schema](#database-schema) 
+* [Purpose](#purpose)
 
-   * [Wireframes](#wireframes) 
+* [User Experience](#user-experience)
 
-   * [Color Scheme and Typography](#color-scheme) 
+   * [Project Goals](#project-goals)
 
-* [Features](#features) 
+   * [User Stories](#user-stories)
 
-   * [Existing Features](#existing-features) 
+   * [Database Schema](#database-schema)
 
-      * [Homepage](#the-main-menu) 
+   * [Wireframes](#wireframes)
 
-      * [The Search Bar](#the-search-bar) 
+   * [Color Scheme and Typography](#color-scheme)
 
-      * [User login](#user login) 
+* [Features](#features)
 
-      * [Meal Planner](#meal-planner) 
+   * [Existing Features](#existing-features)
 
-      * [Recipe Updates](#recipe-updates) 
+      * [Homepage](#homepage)
 
-   * [Future Features](#future-features) 
+      * [Search Bar](#search-bar)
 
-* [Technologies Used](#technologies-used) 
+      * [Collapsing Nav Bar](#nav-bar)
 
-* [Testing](#testing) 
+      * [User login](#user-login)
 
-     * [Manual Testing](#manual-testing) 
+      * [Meal Planner](#meal-planner)
 
-     * [Automated Testing](#automated-testing) 
+   * [Future Features](#future-features)
 
-     * [Unfixed Bugs](#unfixed-bugs) 
+* [Technologies Used](#technologies-used)
 
-* [Deployment](#deployment) 
+* [Testing](#testing)
 
-   * [Deploying the App](#deploying-the-app) 
+     * [Responsiveness](#responsiveness)
 
-   * [Forking The Repository](#forking-the-repository) 
+     * [Manual Testing](#manual-testing)
 
-   * [Cloning The Repository](#cloning-the-repository) 
+     * [Automated Testing](#automated-testing)
 
-   * [Heroku](#heroku) 
+     * [Unfixed Bugs](#unfixed-bugs)
 
-* [Credits](#credits) 
+* [Deployment](#deployment)
+
+   * [Deploying the App](#deploying-the-app)
+
+   * [Forking The Repository](#forking-the-repository)
+
+   * [Cloning The Repository](#cloning-the-repository)
+
+   * [Heroku](#heroku)
+
+* [Credits](#credits)
 
 
 
@@ -69,7 +71,7 @@ View the live site [here](https://yummy-blog-b6c8aefad68f.herokuapp.com/).
 
 This recipe blog is created for users to view and share recipes, with various cuisine options to chose from as well as a calorie count per meal, all users can search and create a daily meal plan using Yummy Blog. Owners of recipes can also edit and delete their own recipes and update their profile account with a bio and photograph.
 
-This program is developed to demonstrate competency in python, django and sql and is purely for educational purposes.
+This program is developed to demonstrate CRUD implementation paired with competency in python and django, and is purely for educational purposes.
 
 
 ## User Experience
@@ -94,12 +96,13 @@ As the site owner, I want the program to:
 ### User Stories
 
 
-All user stories are available to view [here](https://github.com/users/DaniCarmo/projects/2) on Github.
+All user stories are available to view [here](https://github.com/users/DaniCarmo/projects/2) on Github. This project was developed following agile principles. Employing the agile methodology enabled me to meticulously map out the website's features by crafting user stories, each of which came with defined acceptance criteria and tasks.
 
-(https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/user-stories.png?raw=true)
+![screenshot of user stories](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/user-stories.png?raw=true)
 
+The project employed the "MoSCoW" technique to effectively categorize and prioritize its features and requirements based on their importance. "MoSCoW" stands for "Must have, Should have, Could have, and Won't have," with each category contributing to the organization and prioritization of features. This approach acts as a guiding principle for the development process, ensuring that the most crucial elements are addressed as a top priority.
 
-(https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/kanban.png?raw=true)
+![screenshot of kanban](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/kanban.png?raw=true)
 
 
 ### Database Schema
@@ -114,28 +117,40 @@ Basic ERD for the site and how user interacts with pages:
 
 
 Desktop:
+![screenshot pc home](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/pc-home.png?raw=true)
 
-(https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/pc-home.png?raw=true)
-
-(https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/pc-recipes.png?raw=true)
+![screenshot pc recipes](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/pc-recipes.png?raw=true)
 
 
 Tablet:
 
-(https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/tablet-home.png?raw=true)
+![screenshot tablet home](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/tablet-home.png?raw=true)
 
-(https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/tablet-recipes.png?raw=true)
+![screenshot tablet recipes](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/tablet-recipes.png?raw=true)
 
 
 Mobile:
 
-(https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/mobile-home.png?raw=true)
+![screenshot mobile home](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/mobile-home.png?raw=true)
 
-(https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/mobile-recipes.png?raw=true)
+![screenshot mobile recipes](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/design/mobile-recipes.png?raw=true)
 
 
 ### Color Scheme & Typography
 
+Throughout the website the main color themes are black and white which provide a sophisticated and modern look, and this is then paired with soft pastel pinks and lilac purple. These soft, pastel hues introduce a touch of femininity and warmth to the design. They offer a delicate contrast to the starkness of black, evoking feelings of fun and charm. The combination of black with pastel pink and purple creates a striking contrast that immediately grabs attention. This stark juxtaposition adds depth and visual interest to the design, ensuring that key elements stand out while maintaining an overall harmonious balance.
+
+![colors](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/colors.png?raw=true)
+
+The black and white backdrop of food is repeated and this creates a funky and fresh vibe to the site as it provides a fun backdrop to the simplicity of the rest of the site.
+
+![background](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/images/background2.png?raw=true)
+
+Protest Riot: This edgy and unconventional typeface is chosen for headings and the logo to inject a sense of fun and creativity into the design. Its unique strokes and angles stand out, making a bold statement and grabbing the viewer's attention instantly.
+
+Roboto: For all other text, I opted for Roboto for its clean and modern appearance. Its simplicity ensures readability while maintaining a cohesive look with Protest Riot. Roboto's versatility allows it to complement the design without overshadowing the distinctive elements of Protest Riot.
+
+![fonts](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/responsive/ipad.mini.png?raw=true)
 
 ## Features
 
@@ -143,19 +158,54 @@ Mobile:
 ### Existing Features
 
 
-#### The Main Menu
+#### Homepage
 
 
-#### The Search Bar
+The Main Menu serves as the navigational hub of our website, offering users easy access to various sections and features some of the latest recipes uplaoded. From here, users can explore different categories, access their profile settings, or navigate to specific pages within the site. It provides a centralized and intuitive way for users to move around the platform and find what they're looking for efficiently.
+
+![screenshot homepage]()
+
+
+#### Search Bar
+
+
+The Search Bar is a powerful and convenient tool designed to help users quickly find specific recipes within the website, enhancing the user experience. It's a contributive feature that promotes discoverability and encourages users to explore the content available on the platform.
+
+![screenshot search bar](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/search-bar.png?raw=true)
+
+
+#### Collapsing Navbar
+
+
+Yummy Blog features a collapsible navigation bar to ensure optimal user experience across various devices and screen sizes. When viewed on smaller screens, such as mobile devices or tablets, the navigation bar automatically collapses to conserve space and maintain usability.
+
+![screenshot nav bar](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/navbar.png?raw=true)
+
+![screenshot nav bar collapsed](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/navbar-collapse.png?raw=true)
 
 
 #### User Login
 
 
+User Login is a crucial component that enables users to access personalized features and content on our website. By logging in, users can add, delete and update recipes, create meal plans, and view other recipes uplaoded by other users. This enhances the overall user experience by providing a seamless and tailored interaction tailored to each individual user.
+
+![screenshot login](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/sign.in.png?raw=true)
+
+![screenshot sign up](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/register.png?raw=true)
+
+![screenshot add](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/add-new.png?raw=true)
+
+Non users or those who do not own the recipes, do not have the options to edit or delete recipes, but they can still view and search for recipes. There are no Edit or Delete buttons as shown below:
+
+![non user](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/non-user.png?raw=true)
+
+
 #### Meal Planner
 
 
-#### Recipe Updates
+The Meal Planner is a valuable tool designed to simplify the meal planning process for users. Users can create personalized meal plans based on their dietary preferences, nutritional goals, and schedule. It offers a convenient way to organize meals for the week and enhances user engagement.
+
+![screenshot meal planner](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/planner-meals.png?raw=true)
 
 
 ### Future Features
@@ -165,7 +215,7 @@ Features to be implemented may include:
 
 * Allowing logged in users to leave a comment under recipes and vice versa allow recipe/blog owners to respond to or delete comments on their recipes.
 
-*Make it possible for users to upload step-by-step videos of creating their meals.
+* Make it possible for users to upload step-by-step videos of creating their meals.
 
 
 ## Technologies used
@@ -173,11 +223,15 @@ Features to be implemented may include:
 
 * [Bootstrap](https://www.bootstrapcdn.com/)
 
-   *For adding responsive styling to the site.
+   * For adding responsive styling to the site.
 
 * [Python](https://www.python.org/)
 
    * Used to provide functionality to the site.
+
+* [Django](https://www.djangoproject.com/)
+
+   * For user-friendly features and allowed me to build a blog website from scratch.
 
 * [Visual Studios](https://visualstudio.microsoft.com/vs/community/)
 
@@ -195,20 +249,34 @@ Features to be implemented may include:
 
    * Used to create a database schema during planning stage.
 
+*[Cloudinary](https://cloudinary.com/).
+
+   * Used to store static files and images.
+
+*[Heroku](https://dashboard.heroku.com/apps).
+
+   * The hosting provider used.
+
+*[Cloudinary](https://cloudinary.com/).
+
+   * Used to store static files and images.
 
 ## Testing
+
+
+### Responsiveness
 
 
 The site pages have been tested on various screen sizes to ensure that the content is responsive and all screenshots can be viewed [here](https://github.com/DaniCarmo/Yummy-Blog-p4/tree/main/static/responsive)
 
 The code has been tested using:
 
-1. W3 HTML validator(https://validator.w3.org/)
+1. [W3 HTML validator](https://validator.w3.org/)
 
 ![html test](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/testing/html.check.png?raw=true)
 
 
-2. W3 CSS validator(https://jigsaw.w3.org/css-validator/)
+2. [W3 CSS validator](https://jigsaw.w3.org/css-validator/)
 
 ![css test](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/testing/css.check.png?raw=true)
 
@@ -218,7 +286,7 @@ The code has been tested using:
 ![javascript test](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/testing/js.check.png?raw=true)
  
 
-4. [Code Institute CI Python Linter (Pep8)](https://pep8ci.herokuapp.com/) and no errors found.
+4. [CI Python Linter](https://pep8ci.herokuapp.com/)
 
 ![python test](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/testing/python.check.png?raw=true)
 
@@ -280,25 +348,25 @@ To clone the repository through GitHub:
 
 To deploy the project through Heroku I followed these steps: 
 
-Create a Heroku account.
+1. Create a Heroku account.
 
-Sign up with a student account for credits. (optional)
+2. Sign up with a student account for credits. (optional)
 
-Once logged in, select create a new app.
+3. Once logged in, select create a new app.
 
-Select an app name and region EU.
+4. Select an app name and region EU.
 
-Select deployment method as connect to github.
+5. Select deployment method as connect to github.
 
-Find the desired repo from your github.
+6. Find the desired repo from your github.
 
-Enable automatic deploys and select the main branch.
+7. Enable automatic deploys and select the main branch.
 
-In the settings tab select reveal config vars and Input the required hidden variables.
+8. In the settings tab select reveal config vars and Input the required hidden variables.
 
-Select nodejs and python as the buildpack.
+9. Select nodejs and python as the buildpack.
 
-Deploy and once built you will see a notice on Heroku that build was successful and you click on “Open App” to view the live site.
+10. Deploy and once built you will see a notice on Heroku that build was successful and you click on “Open App” to view the live site.
 
 
 ## Credits

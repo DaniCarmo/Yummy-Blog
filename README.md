@@ -46,6 +46,8 @@ View the live site [here](https://yummy-blog-b6c8aefad68f.herokuapp.com/)
 
      * [Responsiveness](#responsiveness)
 
+     * [Lighthouse Results](#lighthouse-results)
+
      * [Manual Testing](#manual-testing)
 
      * [Automated Testing](#automated-testing)
@@ -171,7 +173,11 @@ The Main Menu serves as the navigational hub of our website, offering users easy
 
 The Search Bar is a powerful and convenient tool designed to help users quickly find specific recipes within the website, enhancing the user experience. It's a contributive feature that promotes discoverability and encourages users to explore the content available on the platform.
 
-![screenshot search bar](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/search-bar.png?raw=true)
+![screenshot search bar](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/search%20bar.png?raw=true)
+
+For example:
+
+![screenshot search results](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/search%20results.png?raw=true)
 
 
 #### Collapsing Navbar
@@ -197,7 +203,13 @@ User Login is a crucial component that enables users to access personalized feat
 
 Non users or those who do not own the recipes, do not have the options to edit or delete recipes, but they can still view and search for recipes. There are no Edit or Delete buttons as shown below:
 
-![non user](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/non-user.png?raw=true)
+Non user or a user who did not upload this recipe:
+
+![non user](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/non%20user.png?raw=true)
+
+A user logged in and who uploaded this recipe:
+
+![user](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/screenshots/user%20admin.png?raw=true)
 
 
 #### Meal Planner
@@ -249,15 +261,15 @@ Features to be implemented may include:
 
    * Used to create a database schema during planning stage.
 
-*[Cloudinary](https://cloudinary.com/).
+* [Cloudinary](https://cloudinary.com/).
 
    * Used to store static files and images.
 
-*[Heroku](https://dashboard.heroku.com/apps).
+* [Heroku](https://dashboard.heroku.com/apps).
 
    * The hosting provider used.
 
-*[Cloudinary](https://cloudinary.com/).
+* [Cloudinary](https://cloudinary.com/).
 
    * Used to store static files and images.
 
@@ -292,6 +304,25 @@ The code has been tested using:
 
 
 The code was also checked throughout the project where errors showed up on Visual Studios regarding lines too long and white space trailing, and these were fixed as they arose. 
+
+
+### Lighthouse Results
+
+* Home page:
+
+![lighthouse home](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/testing/home.png?raw=true)
+
+* Recipes page:
+
+![lighthouse recipes](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/testing/recipes.png?raw=true)
+
+* Sign in page:
+
+![lighthouse sign in](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/testing/new.png?raw=true)
+
+* Profile page:
+
+![lighthouse profile](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/testing/profile.png?raw=true)
 
 
 ### Manual Testing
@@ -366,7 +397,7 @@ To deploy the project through Heroku I followed these steps:
 
 9. Select nodejs and python as the buildpack.
 
-10. Deploy and once built you will see a notice on Heroku that build was successful and you click on “Open App” to view the live site.
+10. Deploy and once built you will see a notice on Heroku that build was successful and you click on Open App to view the live site.
 
 
 ## Credits

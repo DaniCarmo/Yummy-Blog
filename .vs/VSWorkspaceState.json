@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github\\ISSUE_TEMPLATE",
+    "\\static\\css"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\static",
   "PreviewInSolutionExplorer": false
 }

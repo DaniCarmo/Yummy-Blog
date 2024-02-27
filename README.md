@@ -50,8 +50,6 @@ View the live site [here](https://yummy-blog-b6c8aefad68f.herokuapp.com/)
 
      * [Manual Testing](#manual-testing)
 
-     * [Automated Testing](#automated-testing)
-
      * [Unfixed Bugs](#unfixed-bugs)
 
 * [Deployment](#deployment)
@@ -253,6 +251,10 @@ Features to be implemented may include:
 
    * Used to host the repository.
 
+* [Git](https://git-scm.com/)
+
+   * Used for version control.
+
 * [Wireframe.cc](https://wireframe.cc/).
 
    * To create the wireframes and design at planning stage.
@@ -348,10 +350,8 @@ Ran each test mentioned in the table below multiple times and each action execut
 | Menu Planner add                                              | As a logged in user I navigate to my profile, click on Meals and then click on my chosen day of the week and add meals                                                                                     | Within the meal planner user is presented with options for "light bites", "dinner" and "dessert" that will appear as suggestions as well as the search bar so user can search and add meals to that day | Successful |
 | Add a recipe - logged in                                      | Click on New on nav bar                                                                                                                                                                                    | As a logged in user I am brough to the Add New page and can enter details and click save, recipe is now available to view by all on site                                                                | Successful |
 | Add a recipe - not loggin in                                  | Click on New on nav bar                                                                                                                                                                                    | As a non-logged in user I am brought to Register/Sign-up page                                                                                                                                           | Successful |
+| Edit Profile                                                  | As a logged in user I click on my Profile and go to Edit                                                                                                                                                   | When the Edit button is clicked a modal will appear within the Profile page where user can update their profile - they can add bio information and/or upload a profile picture                          | Successful |
 
-
-### Automated Testing
- 
 
 ### Unfixed Bugs
 

@@ -292,8 +292,13 @@ The code has been tested using:
 
 2. [W3 CSS validator](https://jigsaw.w3.org/css-validator/)
 
+No errors found when running in CSS level 2:
+
 ![css test](https://github.com/DaniCarmo/Yummy-Blog-p4/blob/main/static/testing/css.check.png?raw=true)
 
+Errors found when running in CSS level 3 and unable to amend - after extensive research I have found that CSS3 and Bootstrap are not fully compatible with the W3C validator.
+
+![css test fail]()
 
 3. [jshint](https://jshint.com/)
 

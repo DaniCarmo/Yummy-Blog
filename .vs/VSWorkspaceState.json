@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github\\ISSUE_TEMPLATE",
+    "\\main",
+    "\\recipes\\templates",
+    "\\recipes\\templates\\recipes",
     "\\static\\css"
   ],
-  "SelectedNode": "\\static",
+  "SelectedNode": "\\main\\settings.py",
   "PreviewInSolutionExplorer": false
 }
